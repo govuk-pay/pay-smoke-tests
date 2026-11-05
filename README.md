@@ -74,7 +74,7 @@ Each smoke test should have its own folder which should be placed in the root of
 
 ## Building packaged zip files
 
-In the event you need to build packaged zip files of the tests, for example when [adding a new smoke test](https://pay-team-manual.cloudapps.digital/manual/tools/canary.html#adding-a-new-smoke-test), run 
+In the event you need to build packaged zip files of the tests, for example when [adding a new smoke test](https://manual.payments.service.gov.uk/manual/tools/canary.html#adding-a-new-smoke-test), run 
 
 ```
 npm run build 
