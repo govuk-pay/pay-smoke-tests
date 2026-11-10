@@ -45,6 +45,7 @@ const TESTS = {
   'make-card-payment-worldpay-with-3ds2-exemption-engine': proxyquire('../make-card-payment-worldpay-with-3ds2-exemption-engine', stubs),
   'make-recurring-card-payment-worldpay': proxyquire('../make-recurring-card-payment-worldpay', recurringCardPaymentStubs),
   'make-card-payment-worldpay-without-3ds': proxyquire('../make-card-payment-worldpay-without-3ds', stubs),
+  'make-recurring-card-payment-adyen': proxyquire('../make-recurring-card-payment-adyen', recurringCardPaymentStubs),
   'cancel-card-payment-sandbox-without-3ds': proxyquire('../cancel-card-payment-sandbox-without-3ds', stubs),
   'use-payment-link-for-sandbox': proxyquire('../use-payment-link-for-sandbox', stubs),
   'notifications-sandbox': proxyquire('../notifications-sandbox', stubs)
