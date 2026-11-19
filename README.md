@@ -19,6 +19,7 @@ in the resource tags, however here's a quick reference guide:
 | make-card-payment-sandbox-without-3ds          | test        | card_sandbox_test     |
 | make-recurring-card-payment-sandbox            | test        | rec_card_sandbox_test |
 | make-card-payment-stripe-with-3ds2             | test        | card_stripe_3ds_test  |
+| make-card-payment-adyen-with-3ds2              | test        | card_adyen_3ds_test   |
 | make-card-payment-stripe-without-3ds           | test        | card_stripe_test      |
 | make-card-payment-worldpay-with-3ds2           | test        | card_wpay_3ds2_test   |
 | make-card-payment-worldpay-with-3ds2-exemption | test        | card_wpay_3ds2ex_test |
@@ -31,6 +32,7 @@ in the resource tags, however here's a quick reference guide:
 | make-card-payment-sandbox-without-3ds          | staging     | card_sandbox_stag     |
 | make-recurring-card-payment-sandbox            | staging     | rec_card_sandbox_stag |
 | make-card-payment-stripe-with-3ds2             | staging     | card_stripe_3ds_stag  |
+| make-card-payment-adyen-with-3ds2              | staging     | card_adyen_3ds_stag   |
 | make-card-payment-stripe-without-3ds           | staging     | card_stripe_stag      |
 | make-card-payment-worldpay-with-3ds2           | staging     | card_wpay_3ds2_stag   |
 | make-card-payment-worldpay-with-3ds2-exemption | staging     | card_wpay_3ds2ex_stag |
@@ -43,6 +45,7 @@ in the resource tags, however here's a quick reference guide:
 | make-card-payment-sandbox-without-3ds          | production  | card_sandbox_prod     |
 | make-recurring-card-payment-sandbox            | production  | rec_card_sandbox_prod |
 | make-card-payment-stripe-with-3ds2             | production  | card_stripe_3ds_prod  |
+| make-card-payment-adyen-with-3ds2              | production  | card_adyen_3ds_prod   |
 | make-card-payment-stripe-without-3ds           | production  | card_stripe_prod      |
 | make-card-payment-worldpay-with-3ds2           | production  | card_wpay_3ds2_prod   |
 | make-card-payment-worldpay-with-3ds2-exemption | production  | card_wpay_3ds2ex_prod |

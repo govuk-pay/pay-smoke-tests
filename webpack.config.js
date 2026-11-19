@@ -49,6 +49,7 @@ module.exports = [
   singleModule('make-recurring-card-payment-worldpay'),
   singleModule('make-recurring-card-payment-stripe'),
   singleModule('make-recurring-card-payment-adyen'),
+  singleModule('make-card-payment-adyen-with-3ds2'),
   singleModule('notifications-sandbox'),
   singleModule('use-payment-link-for-sandbox')
 ]
