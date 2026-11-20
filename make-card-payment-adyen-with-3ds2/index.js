@@ -27,6 +27,8 @@ const enterCardDetailsContinueAdyen3dsAndConfirm = async function (nextUrl, card
   await smokeTestHelpers.enterCardDetailsAndSubmit(page, cardDetails, emailAddress)
 
   await synthetics.executeStep('Click submit button on 3DS page', async function () {
+    // wait for the iFrame to load
+    await new Promise(resolve => setTimeout(resolve, 5000))
     const outerIframeElement = await page.waitForSelector('iframe.iframe-3ds')
     const outerFrame = await outerIframeElement.contentFrame()
 
